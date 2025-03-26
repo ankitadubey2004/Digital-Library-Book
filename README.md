@@ -27,15 +27,18 @@ Run the following command to clone the project:
 
 ```sh
 git clone https://github.com/your-username/library-management-system.git
+```
 
 ###2️⃣ Compile the Code
 Use the Java Compiler (javac) to compile the program:
  ```sh
-     javac Main.java
+     javac Main.java ``
+```
 3️⃣ Run the Program
 Execute the program using:
  ```sh
      java Main
+```
 4️⃣ Using the Application
 Follow the on-screen menu options to add, view, search, update, and delete books.
 
