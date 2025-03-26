@@ -13,6 +13,7 @@ public class Main {
             System.out.println("4. Update Book");
             System.out.println("5. Delete Book");
             System.out.println("6. Exit");
+            System.out.print("Enter choice: ");
 
             int choice = scanner.nextInt();
             scanner.nextLine();
