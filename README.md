@@ -55,6 +55,8 @@ Execute the program using:
 
 ### 🔹 Future Enhancements
 ✅ Implement a database (MySQL, PostgreSQL) for book storage.
+
+
 ✅ Develop a GUI version using JavaFX or Swing for a better user experience.
 ✅ Add a user authentication system for admin-level book management.
 
@@ -62,5 +64,7 @@ Execute the program using:
 
 ### Author
 🖊 Ankita Dubey
+
+
 🔗 GitHub Repository - https://github.com/ankitadubey2004/Digital-Library-Book
 
