@@ -1,3 +1,4 @@
+// Book class representing a book entity
 public class Book {
     private int bookId;
     private String title;
@@ -5,6 +6,7 @@ public class Book {
     private String genre;
     private String availabilityStatus;
 
+    // Constructor to initialize book properties
     public Book(int bookId, String title, String author, String genre, String availabilityStatus) {
         this.bookId = bookId;
         this.title = title;
@@ -13,6 +15,7 @@ public class Book {
         this.availabilityStatus = availabilityStatus;
     }
 
+    // Getter methods to access book properties
     public int getBookId() {
         return bookId;
     }
@@ -33,6 +36,7 @@ public class Book {
         return availabilityStatus;
     }
 
+    // Setter method to update availability status
     public void setAvailabilityStatus(String status) {
         this.availabilityStatus = status;
     }
@@ -44,6 +48,7 @@ public class Book {
         this.availabilityStatus = status;
     }
 
+    // Override toString() for better display of book details
     @Override
     public String toString() {
         return "Book ID: " + bookId + ", Title: " + title + ", Author: " + author +
