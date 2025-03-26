@@ -40,17 +40,17 @@ Execute the program using:
      java Main
 ```
 ### 4️⃣ Using the Application
-Follow the on-screen menu options to add, view, search, update, and delete books.
+- Follow the on-screen menu options to add, view, search, update, and delete books.
 
-Input the required details when prompted.
+- Input the required details when prompted.
 
-Choose the Exit option when done.
+- Choose the Exit option when done.
 
 ### 💡 Challenges Faced & Future Improvements
 🔸 Challenges
-Handling invalid user inputs efficiently.
+- Handling invalid user inputs efficiently.
 
-Ensuring data persistence when the program exits.
+- Ensuring data persistence when the program exits.
 
 ### 🔹 Future Enhancements
 ✅ Implement a database (MySQL, PostgreSQL) for book storage.
