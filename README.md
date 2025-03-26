@@ -29,35 +29,35 @@ Run the following command to clone the project:
 git clone https://github.com/your-username/library-management-system.git
 ```
 
-###2️⃣ Compile the Code
+### 2️⃣ Compile the Code
 Use the Java Compiler (javac) to compile the program:
  ```sh
      javac Main.java ``
 ```
-3️⃣ Run the Program
+### 3️⃣ Run the Program
 Execute the program using:
  ```sh
      java Main
 ```
-4️⃣ Using the Application
+### 4️⃣ Using the Application
 Follow the on-screen menu options to add, view, search, update, and delete books.
 
 Input the required details when prompted.
 
 Choose the Exit option when done.
 
-💡 Challenges Faced & Future Improvements
+### 💡 Challenges Faced & Future Improvements
 🔸 Challenges
 Handling invalid user inputs efficiently.
 
 Ensuring data persistence when the program exits.
 
-🔹 Future Enhancements
+### 🔹 Future Enhancements
 ✅ Implement a database (MySQL, PostgreSQL) for book storage.
 ✅ Develop a GUI version using JavaFX or Swing for a better user experience.
 ✅ Add a user authentication system for admin-level book management.
 
- Author
+### Author
 🖊 Ankita Dubey
 🔗 GitHub Repository - Library Management System
 
