@@ -14,7 +14,7 @@ A simple **Java-based Library Management System** that provides a console interf
 
 ## 🛠 Tech Stack
 - **Java** (Core Java, OOP)
-- **Java Collections Framework** (ArrayList)
+- **Java Collections Framework** (HashMap)
 - **Scanner** (User Input Handling)
   
 ---
