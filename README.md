@@ -47,7 +47,7 @@ Execute the program using:
 ---
 
 ### 💡 Challenges Faced & Future Improvements
-🔸 Challenges
+###🔸 Challenges
 - Handling invalid user inputs efficiently.
 - Ensuring data persistence when the program exits.
 
