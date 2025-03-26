@@ -6,6 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
+            // Display menu options
             System.out.println("\nLibrary Management System");
             System.out.println("1. Add Book");
             System.out.println("2. View All Books");
@@ -20,6 +21,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
+                    // Add a new book
                     System.out.print("Enter Book ID: ");
                     int bookId = scanner.nextInt();
                     scanner.nextLine();
@@ -35,10 +37,12 @@ public class Main {
                     break;
 
                 case 2:
+                    // Display all books
                     library.viewAllBooks();
                     break;
 
                 case 3:
+                    // Search for a book by ID
                     System.out.print("Enter Book ID to Search: ");
                     int searchId = scanner.nextInt();
                     Book foundBook = library.searchBook(searchId);
@@ -46,6 +50,7 @@ public class Main {
                     break;
 
                 case 4:
+                    // Update book details
                     System.out.print("Enter Book ID to Update: ");
                     int updateId = scanner.nextInt();
                     scanner.nextLine();
@@ -61,18 +66,20 @@ public class Main {
                     break;
 
                 case 5:
+                    // Delete a book
                     System.out.print("Enter Book ID to Delete: ");
                     int deleteId = scanner.nextInt();
                     library.deleteBook(deleteId);
                     break;
                 case 6:
+                    // Exit the program
                     System.out.println("Exiting... Thank you!");
                     scanner.close();
                     return;
 
                 default:
+                    // Handle invalid input
                     System.out.println("Invalid choice! Please enter a number between 1-6.");
-
             }
         }
     }
