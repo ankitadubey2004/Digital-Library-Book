@@ -61,6 +61,12 @@ Execute the program using:
 
 ---
 
+###  How to run the JAR file:
+ ```sh
+java -jar DigitalLibrary.jar
+ ```
+---
+
 ### Author
 🖊 Ankita Dubey
 
