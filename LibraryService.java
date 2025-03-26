@@ -28,4 +28,23 @@ public class LibraryService {
         return null;
     }
 
+    public void updateBook(int bookId, String title, String author, String genre, String status) {
+        Book book = searchBook(bookId);
+        if (book != null) {
+            book.updateBook(title, author, genre, status);
+            System.out.println("Book details updated successfully!");
+        } else {
+            System.out.println("Book not found.");
+        }
+    }
+
+    public void deleteBook(int bookId) {
+        Book book = searchBook(bookId);
+        if (book != null) {
+            books.remove(book);
+            System.out.println("Book removed successfully!");
+        } else {
+            System.out.println("Book not found.");
+        }
+    }
 }
