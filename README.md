@@ -1,47 +1,31 @@
-LIBRARY MANAGEMENT SYSTEM
+# 📚 Library Management System
 
+A simple **Java-based Library Management System** that provides a console interface to **manage books** in a library. Users can **add, view, search, update, and delete books** seamlessly.
 
-A simple Java-based Library Management System that allows users to add, view, search, update, and delete books using a console-based interface.
+## 🚀 Features
+✅ Add books with details: **ID, Title, Author, Genre, and Availability Status**  
+✅ View the complete list of books in the library  
+✅ Search for a book by **ID**  
+✅ Update book details dynamically  
+✅ Delete a book from the catalog  
+✅ Interactive **menu-driven console UI**  
 
-🚀 FEATURES
-Add Books – Enter book details (ID, Title, Author, Genre, Status)
+---
 
-View All Books – Display all books available in the library
-Search Books – Find a book by ID
-Update Books – Modify book details
-Delete Books – Remove a book from the catalog
-User-Friendly Console Interface
+## 🛠 Tech Stack
+- **Java** (Core Java, OOP)
+- **Java Collections Framework** (ArrayList)
+- **Scanner** (User Input Handling)
 
-🛠 TECH STACK
-Java
-Object-Oriented Programming (OOP)
-Scanner (User Input Handling)
+---
 
-📌 SETUP INSTRUCTIONS
-🔹 1. CLONE THE REPOSITORY
-      git clone https://github.com/ankitadubey2004/Digital-Library-Book
-      cd Digital-Library-Book
-🔹 2. COMPILE THE CODE
-      javac Main.java
-🔹 3. RUN THE PROGRAM
-      java Main
-🔹 4. USING THE APPLICATION
-Follow on-screen prompts to manage books.
-Select an option from the menu (Add, View, Search, Update, Delete).
-Exit the program when done.
+## 📌 Setup and Installation
 
-💡 CHALLENGES FACED & FUTURE IMPROVEMENTS
-🔸 Challenges
-Handling invalid inputs from users.
+### 1️⃣ Clone the Repository  
+First, ensure you have **Git installed** on your system.  
+Run the following command to clone the project:  
 
-Ensuring data persistence after exiting the program.
+```sh
+git clone https://github.com/your-username/library-management-system.git
 
-🔸 Future Enhancements
-✅ Implement a database (MySQL, PostgreSQL) to store book records.
-✅ Develop a GUI version using JavaFX or Swing for better user experience.
-✅ Add a user authentication system for admin-level book management.
-
-👤 AUTHOR
-🖊 Ankita Dubey
-🔗 GitHub Repository - https://github.com/ankitadubey2004/Digital-Library-Book
 
