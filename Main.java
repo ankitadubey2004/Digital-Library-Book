@@ -66,13 +66,6 @@ public class Main {
                     library.deleteBook(deleteId);
                     break;
 
-                case 6:
-                    System.out.println("Exiting... Thank you!");
-                    scanner.close();
-                    return;
-
-                default:
-                    System.out.println("Invalid choice! Please enter a number between 1-6.");
             }
         }
     }
