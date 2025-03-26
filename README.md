@@ -16,7 +16,7 @@ A simple **Java-based Library Management System** that provides a console interf
 - **Java** (Core Java, OOP)
 - **Java Collections Framework** (ArrayList)
 - **Scanner** (User Input Handling)
-
+  
 ---
 
 ## 📌 Setup and Installation
@@ -41,23 +41,26 @@ Execute the program using:
 ```
 ### 4️⃣ Using the Application
 - Follow the on-screen menu options to add, view, search, update, and delete books.
-
 - Input the required details when prompted.
-
 - Choose the Exit option when done.
+
+---
 
 ### 💡 Challenges Faced & Future Improvements
 🔸 Challenges
 - Handling invalid user inputs efficiently.
-
 - Ensuring data persistence when the program exits.
+
+--- 
 
 ### 🔹 Future Enhancements
 ✅ Implement a database (MySQL, PostgreSQL) for book storage.
 ✅ Develop a GUI version using JavaFX or Swing for a better user experience.
 ✅ Add a user authentication system for admin-level book management.
 
+---
+
 ### Author
 🖊 Ankita Dubey
-🔗 GitHub Repository - Library Management System
+🔗 GitHub Repository - https://github.com/ankitadubey2004/Digital-Library-Book
 
