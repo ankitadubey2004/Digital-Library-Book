@@ -1,13 +1,17 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.HashMap;
+import java.util.Map;
 
-// LibraryService class to manage book
+// LibraryService class to manage books using HashMap
 public class LibraryService {
-    private ArrayList<Book> books = new ArrayList<>();
+    private Map<Integer, Book> books = new HashMap<>();
 
     // Add a new book to the catalog
     public void addBook(int bookId, String title, String author, String genre, String status) {
-        books.add(new Book(bookId, title, author, genre, status));
+        if (books.containsKey(bookId)) {
+            System.out.println("Book ID already exists. Choose a unique ID.");
+            return;
+        }
+        books.put(bookId, new Book(bookId, title, author, genre, status));
         System.out.println("Book added successfully!");
     }
 
@@ -17,27 +21,20 @@ public class LibraryService {
             System.out.println("No books available.");
             return;
         }
-        for (Book book : books) {
+        for (Book book : books.values()) {
             System.out.println(book);
         }
     }
 
     // Search for a book by its unique ID
     public Book searchBook(int bookId) {
-        for (Book book : books) {
-            if (book.getBookId() == bookId) {
-                return book;
-            }
-        }
-        // Returns null if book is not found
-        return null;
+        return books.getOrDefault(bookId, null);
     }
 
     // Update book details (title, author, genre, availability status)
     public void updateBook(int bookId, String title, String author, String genre, String status) {
-        Book book = searchBook(bookId);
-        if (book != null) {
-            book.updateBook(title, author, genre, status);
+        if (books.containsKey(bookId)) {
+            books.get(bookId).updateBook(title, author, genre, status);
             System.out.println("Book details updated successfully!");
         } else {
             System.out.println("Book not found.");
@@ -46,9 +43,7 @@ public class LibraryService {
 
     // Remove a book from the catalog by ID
     public void deleteBook(int bookId) {
-        Book book = searchBook(bookId);
-        if (book != null) {
-            books.remove(book);
+        if (books.remove(bookId) != null) {
             System.out.println("Book removed successfully!");
         } else {
             System.out.println("Book not found.");
